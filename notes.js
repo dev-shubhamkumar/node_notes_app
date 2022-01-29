@@ -3,11 +3,6 @@ const fs = require('fs')
 const { title } = require('process')
 
 
-const getNotes = () => {
-    return 'Your Notes....'
-}
-
-
 const addNote = (title, body) => {
     const notes = loadNotes()
 
